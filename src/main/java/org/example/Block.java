@@ -17,15 +17,14 @@ public class Block {
     public BlockType getType() { return type; }
 
     public enum BlockType {
-        // ID считаем слева-направо, сверху-вниз.
-        // 0 = трава сверху, 1 = камень, 2 = земля, 3 = трава сбоку
 
-        GRASS(3),    // По умолчанию берем текстуру "сбоку"
-        DIRT(2),     // Земля
-        STONE(1),    // Камень
-        WOOD(4),     // Доски
-        LOG(20),     // Бревно (Боковая сторона)
-        LEAVES(52);  // Листва (Дуб)
+
+        GRASS(3),    
+        DIRT(2),    
+        STONE(1),    
+        WOOD(4),     
+        LOG(20),     
+        LEAVES(52); 
 
         public final int textureId;
 
